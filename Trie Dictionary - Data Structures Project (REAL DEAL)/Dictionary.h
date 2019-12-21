@@ -5,7 +5,7 @@
 #include "Trie.h"
 #include <iostream>
 
-class Dictionary {
+class Dictionary : public Trie {
 private:
 	Trie dictionary;
 public:
